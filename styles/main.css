@@ -1,0 +1,196 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Permanent Marker', cursive, 'Times New Roman', Times, serif;
+}
+
+#navbar {
+    height: 50px;
+    width: 100vw;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #000C66;
+}
+
+#navbar p {
+    margin-left: 20px;
+    margin-right: auto;
+    color: white;
+}
+
+#navbar a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+#navbar a:hover, #navbar a:after {
+    background-color: black;
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:brown;
+    text-shadow: black 1px 0 10px;
+}
+
+#welcome-section #mario-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-section #mario-logo #secret-text {
+    display: none;
+}
+
+#welcome-section #mario-logo:hover {
+    background-image: url(../images/logo/mario-auditore-logo.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#welcome-section #mario-logo:hover img {
+    opacity: 0;
+}
+
+#welcome-section #mario-logo:hover #secret-text {
+    display: unset;
+    text-align: center;
+}
+
+#projects {
+    height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f8faf8;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    
+}
+
+#projects #projects-header {
+    margin-top: 60px;
+    color: brown;
+}
+
+#projects #project-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#projects #project-tiles .project-tile {
+    width: 50%;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#projects #project-tiles .project-tile p {
+    width: 90%;
+    color: black;
+    text-shadow: slategrey 1px 0 10px;
+}
+
+#projects #project-tiles .project-tile img {
+    border: 5px solid black;
+}
+
+#contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(246,13,245);
+    background: linear-gradient(160deg, rgba(245,0,252,1) 0%, rgba(254,165,165,1) 57%, rgba(255,255,255,1) 99%);
+}
+
+#contact #contact-header {
+    margin-top: 80px;
+}
+
+#contact #contact-links {
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+#contact #contact-links a img {
+    height: 100px;
+}
+
+#contact #contact-links #github-logo:hover {
+    background-image: url(../images/logo/github-logo-light.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+#contact #contact-links #github-logo:hover img {
+    opacity: 0;
+}
+
+#contact #contact-links #linkedin-logo:hover {
+    background-image: url(../images/logo/linkedin-logo-light.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+#contact #contact-links #linkedin-logo:hover img {
+    opacity: 0;
+}
+
+#contact #contact-links #twitter-logo:hover {
+    background-image: url("../images/logo/twitter-logo-light.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+#contact #contact-links #twitter-logo:hover img {
+    opacity: 0;
+}
+
+#contact #contact-links #instagram-logo:hover {
+    background-image: url("../images/logo/instagram-logo-light.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+#contact #contact-links #instagram-logo:hover img {
+    opacity: 0;
+}
+
+
+#contact #image-sources div {
+    text-align: center;
+}
