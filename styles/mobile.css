@@ -1,0 +1,39 @@
+#navbar {
+    justify-content: center;
+}
+
+#navbar p {
+    display: none;
+}
+
+#projects {
+    height: 100%;
+    max-height: none;
+}
+
+#projects #project-tiles {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+#projects #project-tiles .project-tile {
+    width: 100%;
+}
+
+#projects #project-tiles .project-tile img {
+    max-width: 80%;
+}
+
+#contact {
+    min-height: 100vh;
+    height: 100%;
+}
+
+#contact #contact-links {
+    flex-direction: column;
+}
+
+#contact #image-sources {
+    font-size: x-small;
+}

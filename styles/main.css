@@ -37,7 +37,7 @@ body {
     padding: 0 15px;
 }
 
-#navbar a:hover, #navbar a:after {
+#navbar a:hover {
     background-color: black;
 }
 
@@ -91,7 +91,6 @@ body {
     background-color: #f8faf8;
     border-top: 20px solid black;
     border-bottom: 20px solid black;
-    
 }
 
 #projects #projects-header {
@@ -100,6 +99,7 @@ body {
 }
 
 #projects #project-tiles {
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
